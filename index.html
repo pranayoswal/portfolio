@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+<style>
+        /* Full viewport height and centering */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Crop the content */
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Iframe styling */
+        .iframe-container iframe {
+            position: absolute;
+            top: 0; /* Adjust the top to make sure content is centered properly */
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove iframe border */
+            object-fit: cover; /* Ensure the iframe covers the container without distortion */
+        }
+
+        /* Media query for larger screens (PC/Desktop) */
+        @media (min-width: 768px) {
+            .iframe-container iframe {
+                height: 100%; /* Full height for large screens */
+                top: 0; /* Adjust to prevent any part of the iframe from being cut off */
+            }
+        }
+
+        /* Optional: Spacer class for spacing above/below the iframe */
+        .spacer {
+            margin-bottom: 30px;
+        }
+    </style>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Pranay</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+       
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Pranay. <br>
+                    Community Manager | Discord Expert<br>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead">
+				I'm a Web3 enthusiast passionate about decentralized technologies and the internet's future. As a Discord moderator, 
+				I excel at driving server engagement, organizing events, and maintaining security to foster vibrant, interactive communities. 
+				I can handle your server's daily operations and community events, ensuring your community flourishes. 
+				Staying current with blockchain, crypto, and NFT trends, I combine technical expertise with community-building skills to help Web3 projects thrive.
+				</div>
+        </div>
+		
+		        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Oct 2024 - Present | Huddle01</p>
+                            <h3>Community Advocate</h3>
+                            <h5>Commiunity Moderator</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+●  Developed and executed community
+engagement initiatives, including giveaways,
+events, and Q&A sessions, boosting
+participation and excitement.</p>
+
+<p>● Enforced community guidelines and handled
+member disputes, ensuring a positive, respectful
+environment.</p>
+
+<p>● Analyzed community feedback and member
+activity to provide insights for continuous
+improvement in community strategies.</p>
+
+<p>● Implemented security mechanisms to enhance
+server security using bots such as wick, dyno,
+MEE6, etc.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+ <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Oct 2024 - Present | Huddle01</p>
+                            <h3>Community Advocate</h3>
+                            <h5>Commiunity Moderator</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+●  Developed and executed community
+engagement initiatives, including giveaways,
+events, and Q&A sessions, boosting
+participation and excitement.</p>
+
+<p>● Enforced community guidelines and handled
+member disputes, ensuring a positive, respectful
+environment.</p>
+
+<p>● Analyzed community feedback and member
+activity to provide insights for continuous
+improvement in community strategies.</p>
+
+<p>● Implemented security mechanisms to enhance
+server security using bots such as wick, dyno,
+MEE6, etc.</p>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+		<!-- end about-content -->
+
+    </section> <!-- end about -->
+
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Achievements</h3>
+                <h1>See My Latest Works.</h1>
+                
+                <p class="lead">I have recently worked in all these projects.</div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" 
+                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Beetle
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/lighthouse.jpg" 
+                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Salad
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Skaterboy
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Minimalismo
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+
+
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">Software</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="https://avatars.githubusercontent.com/u/20877156?s=280&v=4" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+					Mee6 Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://docs.wickbot.com/static/logo.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Wick Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://dyno.gg/images/v3/dyno-256.jpg?v=1.2.10" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Dyno Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWaKJLIjPFglwzOYtaw_yRCtvUPUmkr3peA&s" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Quiz Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://mailmeteor.com/logos/assets/PNG/Google_Sheets_Logo_512px.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Google Sheets
+                        <span>Docs Managementt</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://craig.chat/craig.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Craig Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://cdn.prod.website-files.com/63405aed0eef878ae97819c8/655f72e0319f2b98b1a425f1_WUfZW2qkdb4PGJfV5Jq_SebWKq1f86bljc0Ql87dAvg.webp" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Tally Form
+                        <span>Docs Management</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://pbs.twimg.com/profile_images/1850124564619317248/risnPCDy_400x400.jpg" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                        Engage Bot
+                        <span>Management Bot</span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+
+    <!-- blog
+     <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">Expertise</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/730/512/non_2x/association-logo-generative-ai-free-png.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+					Community Management
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://w7.pngwing.com/pngs/881/729/png-transparent-bangalore-city-traffic-police-police-officer-computer-icons-police-police-officer-people-fine-thumbnail.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Moderation & Anti-Abuse Strategies
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://cdn-icons-png.flaticon.com/512/10595/10595761.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Technical Troubleshooting
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://cdn-icons-png.flaticon.com/256/3898/3898082.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Language Skills (If applicable)
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+				
+				<div class="testimonials__slide">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6783/6783360.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                    Cybersecurity & Privacy Awareness
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+
+    <!-- blog
+    ================================================== -->
+     <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">Language</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2626/2626476.png" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+					English
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://img.freepik.com/free-vector/happy-hindi-divas-mother-language-day-celebration-background_1017-54673.jpg" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Hindi
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+
+                 <div class="testimonials__slide">
+                    <img src="https://i.pinimg.com/736x/94/d2/0d/94d20d367177ce9b3c0f65b2b5a42284.jpg" alt="Author image" class="testimonials__avatar">
+					
+					<div class="testimonials__author h06">
+                     Marathi
+                        <span></span>
+                    </div>
+					
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+	<!-- testimonials
+    ================================================== -->
+
+    <section id="contact">
+
+    
+
+    <div class="iframe-container">
+        <iframe src="https://tally.so/r/wvdpR8" frameborder="0" allowfullscreen></iframe>
+    </div>
+	
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <ul class="footer-social">
+                    <li><a href="https://x.com/pranayxp98">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/pranayoswal/">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                    <li><a href="https://github.com/pranayoswal">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>Github</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
